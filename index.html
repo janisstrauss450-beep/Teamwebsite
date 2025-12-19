@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="lv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Komanda Alfa</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stilu fails -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Stiprie Programmētāji</h1>
+      <nav>
+        <a href="about.html">Par mums</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="team-members-section" class="example">
+        <h2>Mūsu komanda</h2>
+        <div id="team-members"></div>
+      </section>
+
+      <section class="example">
+        <h2>Piemērs 1</h2>
+        <p class="chart-description">
+          Šī vizualizācija parāda globālās gaisa temperatūras novirzes pa
+          gadiem, izmantojot NASA atvērtos CSV datus (1880–2019). Dati tiek
+          attēloti kā līniju diagramma, kas ļauj redzēt ilgtermiņa izmaiņu
+          tendenci.
+        </p>
+        <canvas id="chartExample1" width="400" height="200"></canvas>
+        <button>Lasīt vairāk</button>
+      </section>
+
+      <section class="example">
+        <h2>Piemērs 2</h2>
+        <p class="chart-description">
+          Šī vizualizācija izmanto to pašu temperatūras CSV datu kopu, bet
+          fokusējas tikai uz pēdējiem gadiem (no 2000. gada). Dati tiek attēloti
+          kā stabiņu diagramma, lai skaidri salīdzinātu pēdējo gadu temperatūras
+          novirzes savā starpā.
+        </p>
+        <canvas id="chartExample2" width="400" height="200"></canvas>
+        <button>Lasīt vairāk</button>
+      </section>
+
+      <section class="example">
+        <h2>Piemērs 3</h2>
+        <p>
+          Piemērs 3 ir par zinātniskās fantastikas filmu ar interesantu stāstu.
+        </p>
+        <button>Lasīt vairāk</button>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
